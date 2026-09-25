@@ -25,3 +25,47 @@ The main objectives was to understand:
 * Whether the analysis reveals any areas that warrant further investigation
 
 
+### Business Question
+
+**How are sales, profitability, and shipping costs performing across time, product categories, and order values?**
+
+
+## Dataset
+
+The dataset used for this project is the **E-commerce Sales Transactions Dataset** from Kaggle.
+
+**Source:** [Kaggle — E-commerce Sales Transactions Dataset](https://www.kaggle.com/datasets/miadul/e-commerce-sales-transactions-dataset)
+
+The dataset is a **synthetic e-commerce transaction dataset** containing **34,500 transaction records**. It includes fields covering orders, customers, products, pricing, quantities, payment methods, dates, delivery information, regions, returns, revenue, shipping costs, and profit.
+
+### Key fields used in the analysis
+
+* `order_id`
+* `customer_id`
+* `product_id`
+* `category`
+* `price`
+* `discount`
+* `quantity`
+* `payment_method`
+* `order_date`
+* `delivery_time_days`
+* `region`
+* `returned`
+* `total_amount`
+* `shipping_cost`
+* `profit_margin`
+* `customer_age`
+* `customer_gender`
+
+Additional calculated fields were created during the project, including:
+
+* `Shipping % of Revenue`
+* `Profit Status`
+* `Order Value Band`
+* `Profit Before Shipping`
+
+> **Note:** The dataset's `profit_margin` field is treated in this analysis as a profit amount in currency rather than a percentage. Profit margin percentages are calculated as **profit divided by revenue**.
+
+
+
