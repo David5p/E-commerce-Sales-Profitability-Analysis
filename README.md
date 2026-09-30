@@ -169,4 +169,40 @@ Lower-value Grocery orders had substantially higher shipping costs relative to t
 
 This pattern helps explain why shipping has such a significant effect on Grocery profitability. However, the analysis shows an **observed relationship rather than proof of causation**. The underlying low pre-shipping margin also suggests that factors such as pricing, product costs, and discounts should be investigated alongside shipping costs.
 
+## Dashboard
+
+The final Google Sheets dashboard contains:
+
+### KPI Summary
+
+* Revenue
+* Profit
+* Orders
+* Average Order Value
+* Profit Margin
+
+### Visualizations
+
+* **Monthly Revenue Trend**
+* **Monthly Order Volume**
+* **Grocery Profitability: Impact of Shipping**
+
+The dashboard was designed to provide a quick overview of overall performance while highlighting the Grocery profitability issue identified during the analysis.
+
+
+## Data Validation & Audit
+
+An Audit sheet was created to validate the main dashboard KPIs against calculations made directly from the cleaned dataset.
+
+| Check                 |        Result | Status |
+| --------------------- | ------------: | :----: |
+| Total Revenue         | $5,865,293.05 |  PASS  |
+| Total Profit          |   $970,019.41 |  PASS  |
+| Total Orders          |        34,500 |  PASS  |
+| Average Order Value   |       $170.01 |  PASS  |
+| Overall Profit Margin |        16.54% |  PASS  |
+
+This was included to make sure the figures presented in the dashboard were consistent with the underlying cleaned data.
+
+
 
