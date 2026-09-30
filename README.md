@@ -13,6 +13,21 @@ The final output is an interactive-style dashboard supported by detailed analysi
 **Dataset note:** The dataset is a synthetic e-commerce transaction dataset sourced from Kaggle and is used for educational and portfolio purposes.
 **Data source:** [E-commerce Sales Transactions Dataset – Kaggle](https://www.kaggle.com/datasets/miadul/e-commerce-sales-transactions-dataset)
 
+## Project Dashboard & Analysis
+
+The analysis was created in **Google Sheets**, including the data cleaning, calculations, analysis, audit checks, pivot tables, and dashboard.
+
+**[View the Google Sheets Ecommerce Sales Project](https://docs.google.com/spreadsheets/d/1zWT1M9z29xKWRTzQaO49cEMsisYunom-27P1KRl14lk/edit?usp=sharing)**
+
+The workbook contains the following sheets:
+* `raw_data` — The downloaded dataset
+* `data_check` — Calculations to look for anomalies in the data
+* `cleaned_data` — Cleaned dataset and calculated fields
+* `analysis` — KPI calculations, category analysis, shipping analysis, and Grocery deep dive
+* `dashboard` — final KPI cards, visualizations, and key insights
+* `insights` — Summarizes key findings, profitability issues, potential drivers, and data limitations.
+* `audit` — Formula-based validation of the main KPIs
+
 ## Project Objectives
 
 The main objectives was to understand:
