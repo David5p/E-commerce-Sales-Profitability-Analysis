@@ -30,7 +30,7 @@ The workbook contains the following sheets:
   * `Shipping % of Revenue` — Shipping cost as a percentage of revenue
   * `Profit Status` — Identifies transactions as profitable or loss-making
   * `Order Value Band` — Groups orders into value ranges for comparison
-  * `Profit Before Shipping` — Profit after excluding shipping costs
+  * `Profit Before Shipping` — Profit before shipping costs are deducted
 * `analysis` — KPI calculations, category analysis, shipping analysis, and Grocery deep dive
 * `dashboard` — Final KPI cards, visualizations, and key insights
 * `insights` — Summary of key findings, profitability issues, potential drivers, and data limitations
