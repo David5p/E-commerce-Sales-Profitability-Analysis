@@ -15,17 +15,22 @@ The final output is an interactive-style dashboard supported by detailed analysi
 
 ## Project Dashboard & Analysis
 
-The analysis was created in **Google Sheets**, including the data cleaning, calculations, analysis, audit checks, pivot tables, and dashboard.
+The analysis was created in **Google Sheets**, including data cleaning, calculations, analysis, audit checks, pivot tables, and dashboard design.
 
 **[View the Google Sheets Ecommerce Sales Project](https://docs.google.com/spreadsheets/d/1zWT1M9z29xKWRTzQaO49cEMsisYunom-27P1KRl14lk/edit?usp=sharing)**
 
 The workbook contains the following sheets:
+
 * `raw_data` — The downloaded dataset
-* `data_check` — Calculations to look for anomalies in the data
-* `cleaned_data` — Cleaned dataset and calculated fields
+* `data_check` — Checks for potential data anomalies
+* `cleaned_data` — Cleaned dataset with additional calculated fields used for the analysis:
+  * `Shipping % of Revenue` — Shipping cost as a percentage of revenue
+  * `Profit Status` — Identifies transactions as profitable or loss-making
+  * `Order Value Band` — Groups orders into value ranges for comparison
+  * `Profit Before Shipping` — Profit after excluding shipping costs
 * `analysis` — KPI calculations, category analysis, shipping analysis, and Grocery deep dive
-* `dashboard` — final KPI cards, visualizations, and key insights
-* `insights` — Summarizes key findings, profitability issues, potential drivers, and data limitations.
+* `dashboard` — Final KPI cards, visualizations, and key insights
+* `insights` — Summary of key findings, profitability issues, potential drivers, and data limitations
 * `audit` — Formula-based validation of the main KPIs
 
 ## Project Objectives
