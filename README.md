@@ -2,6 +2,8 @@
 
 ## Project Overview
 
+![E-commerce Sales & Profitability Dashboard - Overview](dashboard_KPIs.png)
+
 This project analyzes an e-commerce sales transaction dataset using **Google Sheets** to explore sales performance, profitability, order trends, and shipping costs.
 
 The project demonstrates an end-to-end analytical workflow:
@@ -9,6 +11,8 @@ The project demonstrates an end-to-end analytical workflow:
 **Data → Cleaning → Validation → Analysis → Visualization → Insights**
 
 The final output is a dashboard supported by detailed analysis and an audit sheet used to validate the main KPIs.
+
+![E-commerce Sales & Profitability Dashboard - key insights](dashboard_insights.png)
 
 **Dataset note:** The dataset is a synthetic e-commerce transaction dataset sourced from Kaggle and is used for educational and portfolio purposes.
 
@@ -142,15 +146,7 @@ Grocery was the only category with an overall negative profit in the analysis.
 
 However, looking at profitability **before shipping costs** provides additional context:
 
-| Category | Revenue | Profit Before Shipping | Pre-Shipping Profit Margin |
-|---|---:|---:|---:|
-| Beauty | $153,019.38 | $68,859.14 | 45.00% |
-| Electronics | $3,319,206.50 | $398,304.84 | 12.00% |
-| Fashion | $471,545.80 | $165,039.87 | 35.00% |
-| Grocery | $82,000.51 | **$6,560.06** | **8.00%** |
-| Home | $1,077,681.52 | $301,751.06 | 28.00% |
-| Sports | $629,825.54 | $188,946.99 | 30.00% |
-| Toys | $132,013.80 | $52,805.58 | 40.00% |
+![E-commerce Sales & Profitability Table](category_profit.png)
 
 Grocery had the **lowest pre-shipping profit margin among all categories at 8.0%**, indicating that the category was already relatively low-margin before shipping costs were applied.
 
@@ -173,13 +169,7 @@ The analysis therefore suggests that Grocery's profitability issue involves both
 
 The Grocery order-value analysis showed a clear relationship between order value and shipping costs as a percentage of revenue.
 
-| Order Value Band | Orders | Shipping as % of Revenue |
-|---|---:|---:|
-| Under $5 | 906 | 68.13% |
-| $5–$9.99 | 845 | 43.33% |
-| $10–$19.99 | 998 | 28.31% |
-| $20–$49.99 | 970 | 16.56% |
-| $50+ | 339 | 7.65% |
+![E-commerce Sales & Profitability groceries price breakdown](grocery_breakdown.png)
 
 Lower-value Grocery orders had substantially higher shipping costs relative to their revenue. For orders under $5, shipping represented **68.13% of revenue**, compared with **7.65% for orders of $50 or more**.
 
