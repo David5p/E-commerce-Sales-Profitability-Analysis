@@ -68,4 +68,29 @@ Additional calculated fields were created during the project, including:
 > **Note:** The dataset's `profit_margin` field is treated in this analysis as a profit amount in currency rather than a percentage. Profit margin percentages are calculated as **profit divided by revenue**.
 
 
+## Tools & Skills
+
+### Tools
+
+* Google Sheets
+* Pivot Tables
+* Google Sheets formulas
+* Charts and dashboard design
+
+### Skills demonstrated
+
+* Data cleaning and preparation
+* Data validation
+* KPI calculation
+* Aggregation and summarization
+* Time-series analysis
+* Category analysis
+* Profitability analysis
+* Cost analysis
+* Data visualization
+* Dashboard creation
+* Analytical storytelling
+
+
+
 
