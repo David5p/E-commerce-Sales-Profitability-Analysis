@@ -220,4 +220,49 @@ An Audit sheet was created to validate the main dashboard KPIs against calculati
 This was included to make sure the figures presented in the dashboard were consistent with the underlying cleaned data.
 
 
+## Project Takeaways
+
+This project demonstrates an end-to-end approach to analyzing transactional data, from data preparation and validation through to analysis, visualization, and business insight.
+
+Key areas demonstrated include:
+
+* Data cleaning and preparation
+* KPI calculation and validation
+* Pivot-table based analysis
+* Time-series and category analysis
+* Profitability and cost analysis
+* Investigating potential drivers behind an unexpected business result
+* Dashboard design and data visualization
+* Communicating findings and limitations clearly
+
+A key takeaway from the analysis is that **revenue alone does not provide a complete view of business performance**. Examining profit and costs revealed that Grocery was the only loss-making category and highlighted shipping costs, as well as the category's relatively low pre-shipping margin, as areas warranting further investigation.
+
+## Limitations
+
+There are several limitations to this analysis:
+
+* The dataset is limited to the variables provided in the source data.
+* September 2023 and September 2025 are partial months and should therefore be interpreted with caution when comparing monthly trends.
+* The analysis describes patterns within the dataset and does not establish causal relationships.
+* The Grocery analysis identifies shipping costs as a major contributor to the category's negative profitability, but the relatively low pre-shipping profit margin suggests that other factors, such as product costs, pricing, or discounts, may also contribute to the result. These factors were not investigated at a detailed product level in this project.
+* Shipping costs are analyzed at the transaction/category level and may not represent the full operational cost structure of a real e-commerce business.
+* The analysis does not include additional business context such as supplier costs, marketing spend, employee costs, warehouse costs, or customer acquisition costs.
+
+These limitations should be considered when interpreting the findings.
+
+## Future Improvements
+
+If expanding this project further, possible next steps could include:
+
+* Investigating Grocery at the product level to identify whether pricing, product costs, or discount levels contribute to the low pre-shipping profit margin
+* Customer segmentation and repeat-customer analysis
+* Return-rate analysis by category and region
+* Regional performance analysis
+* Payment-method analysis
+* Product-level profitability analysis
+* More detailed shipping-cost analysis by order value and category
+* Adding interactive dashboard filters for category, region, and time period
+* Expanding the audit checks to validate additional calculated metrics
+* Adding further visualizations to explore relationships between order value, shipping costs, and profitability
+
 
